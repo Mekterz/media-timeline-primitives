@@ -1,0 +1,41 @@
+{
+  "name": "media-timeline-primitives",
+  "version": "0.1.0",
+  "description": "Headless React UI primitives to build advanced media timelines (Smart Scrubbers, Heatmaps, Chapters). Bring your own CSS and video player.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mekterz/media-timeline-primitives.git"
+  },
+  "keywords": [
+    "react",
+    "headless",
+    "video",
+    "player",
+    "timeline",
+    "heatmap",
+    "chapters",
+    "accessible"
+  ],
+  "author": "Mekterz",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0"
+  }
+}
